@@ -17,7 +17,7 @@ Reprezentuje panelák. Každý panelák je označený súpisným číslom a skla
 ## Class HousingEstate
 Reprezentuje celé sídlisko, ktoré sa skladá z množiny panelákov.
 
-## Dodatočné info
+### Dodatočné info
 V testovacom príklade pracujte s nasledujúcimi hodnotami:
 Počet vchodov paneláku: 12
 Počet bytov vchodu: 14 (7 poschodí, na každom 2 byty)
