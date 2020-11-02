@@ -22,4 +22,5 @@ V testovacom príklade pracujte s nasledujúcimi hodnotami:
 Počet vchodov paneláku: 12
 Počet bytov vchodu: 14 (7 poschodí, na každom 2 byty)
 Kapacita bytov: 4
+
 Čo nie je jasné, to si domyslite tak, aby to dávalo zmysel. Čo si nebudete vedieť domyslieť, pýtajte sa.
