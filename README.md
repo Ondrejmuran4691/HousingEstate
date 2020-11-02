@@ -1,6 +1,6 @@
 # HousingEstate
 
-Naprogramujte systém pre sídliská, v ktorom bude možné evidovať obyvateľov žijúcich na danom sídlisku. Do jednotlivých bytov sídliska sa budú môcť ľudia nasťahovať, presťahovať do iného bytu alebo úplne opustiť sídlisko. Pre každý vchod nám bude systém schopný poskytnúť údaje o najstaršom a najmladšom obyvateľovi, a tiež vekový priemer všetkých obyvateľov vchodu. To isté sa bude dať pre celý panelák a sídlisko. So systémom sa bude dať pracovať pomocou konzoly vďaka menu – napríklad keď používateľ zadá 1 bude môcť pridať obyvateľa do nejakého bytu atď. Pre source control použite git.
+Naprogramujte systém pre sídliská, v ktorom bude možné evidovať obyvateľov žijúcich na danom sídlisku. Do jednotlivých bytov sídliska sa budú môcť ľudia nasťahovať, presťahovať do iného bytu alebo úplne opustiť sídlisko. Pre každý vchod nám bude systém schopný poskytnúť údaje o najstaršom a najmladšom obyvateľovi, a tiež vekový priemer všetkých obyvateľov vchodu. To isté sa bude dať pre celý panelák a sídlisko. So systémom sa bude dať pracovať pomocou konzoly vďaka menu – napríklad keď používateľ zadá 1 bude môcť pridať obyvateľa do nejakého bytu atď. Pre source control použite git. Toto repository nemusíte forkovať. Vytvorte si vlasné.
 
 ## Class Person
 Reprezentuje človeka, ktorý je obyvateľom bytu. Každá osoba je charakterizovaná menom, priezviskom a vekom. Každá osoba prináleží nejakému bytu, preto si každá osoba uchováva referenciu na byt, v ktorom býva.
