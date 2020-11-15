@@ -2,7 +2,7 @@
 
 Naprogramujte systém pre sídliská, v ktorom bude možné evidovať obyvateľov žijúcich na danom sídlisku. Do jednotlivých bytov sídliska sa budú môcť ľudia nasťahovať, presťahovať do iného bytu alebo úplne opustiť sídlisko. Pre každý vchod nám bude systém schopný poskytnúť údaje o najstaršom a najmladšom obyvateľovi, a tiež vekový priemer všetkých obyvateľov vchodu. To isté sa bude dať pre celý panelák a sídlisko. So systémom sa bude dať pracovať pomocou konzoly vďaka menu – napríklad keď používateľ zadá 1 bude môcť pridať obyvateľa do nejakého bytu atď. Pre source control použite git. Toto repository nemusíte forkovať. Vytvorte si vlasné.
 
-Používajte angličtinu.
+Používajte angličtinu. Commitujte priebežne a často, aj po malých zmenách.
 
 ## 1. Implementujte triedu Person
 Začnite implementáciou triedy Person, ktorá reprezentuje človeka, ktorý je obyvateľom bytu. Každá osoba je charakterizovaná menom, priezviskom a vekom. Uvážte použitie fieldov (private premenných triedy) a properties (public premenných triedy). Implementujte metódu na vytvorenie inštancie triedy Person - konštruktor. Implementujte metódu ToString(), ktorá vypíše údaje o osobe na kozolu. V metódte Main triedy Program.cs vytvorte ľubovoľnú inštanciu vytvorenej triedy a vyskúšajte funkčnosť metódy ToString().
@@ -25,7 +25,7 @@ V metóde Main vyskúšajte implementované zmeny.
 
 ## 7. Rozšírte systém
 
-Pokračujte podobným spôsobom ďalej. Implementujte triedy Entrance, BlockOfFlats a HousingEstate. Uvážte fieldy, property a metódy, ktoré budeme v systéme potrebovať.
+Pokračujte podobným spôsobom ďalej. Implementujte triedy Entrance, BlockOfFlats a HousingEstate. Uvážte fieldy, property a metódy, ktoré budú jednotlivé triedy potrebovať.
 
 ### Class  Entrance
 Reprezentuje vchod. Každý vchod je označený orientačným číslom, pričom orientačné čísla susedných vchodov sa líšia o 2. Na jednej strane ulice sa zvyknú používať párne čísla a na opačnej strane zasa nepárne. Každý vchod má niekoľko poschodí, na ktorých je istý počet bytov. Okrem toho si každý vchod pamätá, do ktorého paneláku patrí.
