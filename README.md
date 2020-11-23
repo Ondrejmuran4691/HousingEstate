@@ -20,7 +20,7 @@ Vypisovanie údajov o ubytovaných osobách v byte sa nám hodí aj pri ostatný
 Už teda vieme zistiť údaje o osobách, ktoré sú ubytované v nejakom byte. Keby sme teda mali zoznam bytov, vedeli by sme prezrieť každý byt a zistiť si údaje o všetkých osobách v nich ubytovaných. Čo ak by sme ale mali k dispozícii nejakú konkrétnu osobu a chceli by sme zistiť, v ktorom z našich bytov býva? Museli by sme prehľadávať všetky byty a všetky zoznamy osôb, či to náhodou nie je práve ten, ktorého hľadáme. Aby sme sa vyhli takémuto neefektívnemu prezeraniu všetkého, upravme triedu Person tak, aby obsahovala referenciu na byt, v ktorom je ubytovaná. V tride Person tiež implementujte metódu GetInfoAboutFlat() typu string, ktorá vypíše údaje o byte, v ktorom je daná osoba ubytovaná. Upravte metódu AddHabitant triedy Flat, aby nastavila práve pridávanému obyvateľovi referenciu na tento byt (this). V metóde Main vyskúšajte implementované metódy.
 
 ## 6. Osloboďte triedu Person
-Čo keby sme chceli neskôr systém neskôr rozšíriť aj osoby, ktoré na našom sídlisku pracujú (napr. nejaký správca, upratovačka,...), ale nebývajú v žiadnom z bytov. Nebudú teda potrebovať referenciu na byt. Meno, priezvisko a vek ale určite mať budú. Osloboďte triedu Person od závislosti na triede Flat. Nápoveda: Habitant, dedičnosť
+Čo keby sme chceli systém neskôr rozšíriť aj osoby, ktoré na našom sídlisku pracujú (napr. nejaký správca, upratovačka,...), ale nebývajú v žiadnom z bytov. Nebudú teda potrebovať referenciu na byt. Meno, priezvisko a vek ale určite mať budú. Osloboďte triedu Person od závislosti na triede Flat. Nápoveda: Habitant, dedičnosť
 V metóde Main vyskúšajte implementované zmeny.
 
 ## 7. Rozšírte systém
