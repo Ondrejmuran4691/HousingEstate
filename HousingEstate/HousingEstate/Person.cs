@@ -15,11 +15,10 @@ namespace HousingEstate
             FirstName = firstname;
             SecondName = secondname;
         }
-        public void ToString()
+        public override string ToString()
         {
-            Console.WriteLine("FirstName: " + FirstName);
-            Console.WriteLine("SecondName: " + SecondName);
-            Console.WriteLine("Age: " + Age);
+            
+            return ("FirstName: " + FirstName + " SecondName: " + SecondName + " Age: " + Age);
         }
        
 

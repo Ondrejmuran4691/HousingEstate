@@ -18,11 +18,10 @@ namespace HousingEstate
             NumberOfRooms = numberofrooms;
         }
 
-        public void ToString()
+        public override string ToString()
         {
-            Console.WriteLine("NumberOfFlat: " + NumberOfFlat);
-            Console.WriteLine("Area: " + Area);
-            Console.WriteLine("NumberOfRooms: " + NumberOfRooms);
+            return("NumberOfFlat: " + NumberOfFlat + " Area: " + Area + " NumberOfRooms: " + NumberOfRooms);
+          
         }
         public void AddHabitant(string name)
         {
