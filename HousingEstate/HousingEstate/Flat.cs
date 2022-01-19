@@ -9,7 +9,7 @@ namespace HousingEstate
         public int NumberOfFlat { get; private set; }
         public int Area { get; private set; }
         public int NumberOfRooms { get; private set; }
-        public List<string> Citizens = new List<string>();
+        public List<object> Citizens = new List<object>();
 
         public Flat(int numberofflat, int area, int numberofrooms)
         {
@@ -23,7 +23,7 @@ namespace HousingEstate
             return("NumberOfFlat: " + NumberOfFlat + " Area: " + Area + " NumberOfRooms: " + NumberOfRooms);
           
         }
-        public void AddHabitant(string name)
+        public void AddHabitant(object name)
         {
             Citizens.Add(name);
             
@@ -31,7 +31,7 @@ namespace HousingEstate
         public string GetInfoAboutAllHabitants()
         {
             string x = "";
-            foreach (string c in Citizens)
+            foreach (object c in Citizens)
             {
 
                 x += c;

@@ -12,7 +12,7 @@ namespace HousingEstate
         public Person(string firstname, string secondname, int age)
         {
             Age = age;
-            FirstName = firstname;
+             FirstName = firstname;
             SecondName = secondname;
         }
         public override string ToString()

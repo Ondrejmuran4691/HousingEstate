@@ -13,10 +13,10 @@ namespace HousingEstate
             Console.WriteLine( David.ToString());
             Flat Zvolensky = new Flat(1, 255, 4);
             Console.WriteLine(Zvolensky.ToString());
-            Zvolensky.AddHabitant(David.FirstName + David.SecondName);
-            Zvolensky.AddHabitant(Hugo.FirstName + Hugo.SecondName);
-            Zvolensky.AddHabitant(Jana.FirstName + Jana.SecondName);
-            Zvolensky.AddHabitant(Robert.FirstName + Robert.SecondName);
+            Zvolensky.AddHabitant(David);
+            Zvolensky.AddHabitant(Hugo);
+            Zvolensky.AddHabitant(Jana);
+            Zvolensky.AddHabitant(Robert);
             Console.WriteLine("Citizens:");
             
             Console.WriteLine (Zvolensky.GetInfoAboutAllHabitants());
